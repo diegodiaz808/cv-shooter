@@ -23,6 +23,30 @@ cp config.example.yaml config.yaml   # fill in your profile
 ./apply --reset-seen # forget history
 ```
 
+## Example run (real output)
+
+```
+▶ Community Manager (Web3)  (web3career, cryptojobslist, remote3, remoteok, linkedin)
+    web3career       15 ofertas
+    cryptojobslist   21 ofertas
+    remote3          1 ofertas
+    remoteok         58 ofertas
+    linkedin         176 ofertas
+    → 134 matchean · 128 nuevas · verificando detalle (remoto)…
+    → abro 20 (verificadas) · resto sigue en cola
+       1. [ 74] Community Lead — Accurx
+       2. [ 64] Community Manager — Remotasks
+       3. [ 64] KOC&Community Manager — Bitget Wallet
+       4. [ 64] Social Media and Community Manager — Koinly
+       ...
+      15. [ 32] Director of Research — Stellar Development   💰$210k-365k/year
+      16. [ 24] Partnerships Manager — ETHGlobal Inc  💰$90k-120k/year
+
+───────────────────────────────────────────
+RESUMEN
+  Community Manager (Web3): 128 nuevas · (dry) abiertas 20 · quedan 108
+```
+
 ## Stack
 
 Python · YAML config · pluggable scrapers · AppleScript/Chrome automation
