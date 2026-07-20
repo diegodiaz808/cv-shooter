@@ -1,0 +1,4 @@
+#!/bin/bash
+# Lanzador de cv-apply. Uso: ./apply  |  ./apply --dry  |  ./apply --profile product
+cd "$(dirname "$0")"
+.venv/bin/python run.py "$@"

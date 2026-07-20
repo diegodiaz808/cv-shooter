@@ -1,0 +1,25 @@
+settings:
+  recent_days: 7            # only offers from the last N days
+  browser: "Google Chrome"
+
+run:
+  - profile: main
+    max_tabs: 20
+
+profiles:
+  main:
+    label: "Your Role (e.g. Community Manager Web3)"
+    cv: cv/your_cv.pdf
+    sources: [web3career, cryptojobslist, remote3, remoteok, linkedin]
+    remote_only: true         # drop hybrid/on-site (verifies LinkedIn detail), except your city
+    only_easy_apply: true     # LinkedIn: only Easy Apply, except junior/mid roles
+    junior_mid_levels: ["junior", "mid"]
+    linkedin_queries:
+      - "your search query"
+    titles:                   # title matches, ordered by weight
+      - "target title"
+    keywords_good:            # add score if present
+      - "keyword"
+    keywords_bad:             # reject if present in the TITLE
+      - "keyword"
+    seniority: senior
