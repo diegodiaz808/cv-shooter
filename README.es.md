@@ -18,7 +18,7 @@ config, y abre los resultados de cada uno en **su propia ventana** de Chrome
 registrado y no vuelve a aparecer.
 
 La primera vez macOS pide permiso para que la terminal controle Chrome
-(Automatización) — aceptá una vez.
+(Automatización) - aceptá una vez.
 
 ## Configurar
 
@@ -46,7 +46,7 @@ Cada perfil define sus propias fuentes con `sources:` en `config.yaml`
 | linkedin | ✅ | endpoint guest (sin login) |
 | remote3 | ⚠️ parcial | RSS (solo recientes) |
 | laborx | ⛔ pendiente | JS-heavy |
-| beincrypto | ⛔ pendiente | — |
+| beincrypto | ⛔ pendiente | - |
 
 Agregar una fuente = un archivo en `sources/` con `fetch(profile) -> list[Job]`
 y registrarla en `sources/__init__.py` + `config.yaml`.
@@ -59,7 +59,7 @@ y registrarla en `sources/__init__.py` + `config.yaml`.
 ## Pendiente / roadmap
 
 1. Sumar fuentes: laborx, beincrypto, y las que uses.
-2. Perfil B (Product & Design) — copiar bloque en `config.yaml`.
+2. Perfil B (Product & Design) - copiar bloque en `config.yaml`.
 3. Autocompletado de formularios con datos de `identity`.
 4. LinkedIn "Easy Apply" automático (al final, con cuidado de baneo).
 5. CV adaptado por oferta.
